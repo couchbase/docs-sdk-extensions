@@ -1,0 +1,6 @@
+name: sdk-extensions
+title: SDK Extension Libraries
+version: master
+start_page: ROOT:index.adoc
+nav:
+- modules/ROOT/nav.adoc
