@@ -1,0 +1,76 @@
+= SDK Extension Libraries
+:description: Field Level Encryption, Response Time Observability (Tracing), and Transactions libraries ship separately from each SDK.
+
+[Abstract]
+{description}
+As does Spring Data and others which are not applicable for each SDK.
+These pages are for common material across a number of SDKs.
+
+
+If you have landed on this page, you most likely wish to be on a general page for one of the extension libraries.
+These are outlined in the next section.
+If you want to be on a particular SDK's extension library page, you will find them listed at the <<additional-information,end of the page>>.
+
+
+== FLE, RTO, and Distributed ACID Transactions
+
+Couchbase provides several SDKs to allow applications to access a Couchbase cluster, as well as Mobile SDKs to carry your application to the edge. 
+
+=== Distributed ACID Transactions
+
+Distributed ACID Transactions are operations that ensure that when multiple documents need to be modified such that only the successful modification of all justifies the modification of any, either all the modifications do occur successfully; or none of them occurs. 
+
+xref:sdk-extensions::distributed-acid-transactions.adoc[Distributed ACID Transactions intro].
+
+=== Field Level Encryption
+
+Fields within a JSON document can be securely encrypted by the SDK to support FIPS 140-2 compliance.
+This is a client-side implementation, with encryption and decryption handled by the Couchbase client SDK.
+
+xref:sdk-extensions::field-level-encryption.adoc[Field Level Encryption intro].
+
+=== Response Time Observability
+
+Health indicators can tell you a lot about the performance of an application. 
+Monitoring them is vital both during its development and production lifecycle.
+For a database, performance is best encapsulated via per-request performance.
+
+xref:sdk-extensions::response-time-observability.adoc[Response Time Observability intro].
+
+////
+== Spring Data Couchbase
+
+https://spring.io/projects/spring-data-couchbase[Spring Data for Couchbase] is part of the umbrella Spring Data project which aims to provide a familiar and consistent Spring-based programming model for new datastores while retaining store-specific features and capabilities.
+
+The Spring Data Couchbase project provides integration with the Couchbase Server database and any of our JVM SDKs. 
+Key functional areas of Spring Data Couchbase are a POJO centric model for interacting with Couchbase Buckets and easily writing a Repository style data access layer.
+
+xref:sdk-extensions::spring-data-couchbase.adoc[Spring Data Couchbase intro].
+
+////
+
+== Additional Information
+
+* Distributed ACID Transactions in xref:java-sdk:howtos:distributed-acid-transactions-from-the-sdk.adoc[Java], 
+xref:dotnet-sdk:howtos:distributed-acid-transactions-from-the-sdk.adoc[.NET (C#)], 
+and xref:cxx-txns::distributed-acid-transactions-from-the-sdk.adoc[C++].
+* Field Level Encryption pages for 
+// xref:c-sdk:howtos:encrypting-using-sdk.adoc[C], 
+xref:dotnet-sdk:howtos:encrypting-using-sdk.adoc[.NET], 
+xref:go-sdk:howtos:encrypting-using-sdk.adoc[Go], 
+xref:java-sdk:howtos:encrypting-using-sdk.adoc[Java], 
+xref:nodejs-sdk:howtos:encrypting-using-sdk.adoc[Node.js], 
+// xref:php-sdk:howtos:encrypting-using-sdk.adoc[PHP], 
+xref:python-sdk:howtos:encrypting-using-sdk.adoc[Python], 
+// xref:ruby-sdk:howtos:encrypting-using-sdk.adoc[Ruby], 
+and xref:scala-sdk:howtos:encrypting-using-sdk.adoc[Scala].
+* RTO pages for 
+// xref:c-sdk:howtos:slow-operations-logging.adoc[C], 
+// xref:dotnet-sdk:howtos:slow-operations-logging.adoc[.NET], 
+// xref:go-sdk:howtos:slow-operations-logging.adoc[Go], 
+xref:java-sdk:howtos:observability-tracing.adoc[Java], 
+// xref:nodejs-sdk:howtos:slow-operations-logging.adoc[Node.js], 
+// xref:php-sdk:howtos:slow-operations-logging.adoc[PHP], 
+// xref:python-sdk:howtos:slow-operations-logging.adoc[Python], 
+// xref:ruby-sdk:howtos:slow-operations-logging.adoc[Ruby], 
+and xref:scala-sdk:howtos:observability-tracing.adoc[Scala].
