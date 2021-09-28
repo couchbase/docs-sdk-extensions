@@ -37,7 +37,7 @@ For a database, performance is best encapsulated via per-request performance.
 
 xref:sdk-extensions::response-time-observability.adoc[Response Time Observability intro].
 
-////
+
 == Spring Data Couchbase
 
 https://spring.io/projects/spring-data-couchbase[Spring Data for Couchbase] is part of the umbrella Spring Data project which aims to provide a familiar and consistent Spring-based programming model for new datastores while retaining store-specific features and capabilities.
@@ -47,7 +47,6 @@ Key functional areas of Spring Data Couchbase are a POJO centric model for inter
 
 xref:sdk-extensions::spring-data-couchbase.adoc[Spring Data Couchbase intro].
 
-////
 
 == Additional Information
 
