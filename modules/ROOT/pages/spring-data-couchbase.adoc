@@ -1,0 +1,8 @@
+= Spring Data Couchbase
+:description: Spring-based programming model for Couchbase Server with any of our JVM-based SDKs (Java, Kotlin, and Scala).
+
+
+The primary goal of the Spring Data project is to make it easier to build Spring-powered applications that use new data access technologies such as non-relational databases, map-reduce frameworks, and Cloud-based data services.
+
+The Spring Data Couchbase project aims to provide a familiar and consistent Spring-based programming model for Couchbase Server as a document database and cache while retaining store-specific features and capabilities. 
+Key functional areas of Spring Data Couchbase are a POJO centric model for interacting with a Couchbase Server Bucket and easily writing a repository style data access layer.
