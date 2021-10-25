@@ -1,5 +1,6 @@
-.SDK Extension Libraries
+// .SDK Extension Libraries
+* xref:index.adoc[SDK Extension Libraries]
 * xref:distributed-acid-transactions.adoc[Distributed ACID Transactions]
 * xref:field-level-encryption.adoc[Field Level Encryption]
 * xref:response-time-observability.adoc[Response Time Observability]
-// * xref::spring-data-couchbase.adoc[Spring Data]
+* xref::spring-data-couchbase.adoc[Spring Data]
