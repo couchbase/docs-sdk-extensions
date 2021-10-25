@@ -12,7 +12,7 @@ These are outlined in the next section.
 If you want to be on a particular SDK's extension library page, you will find them listed at the <<additional-information,end of the page>>.
 
 
-== FLE, RTO, and Distributed ACID Transactions
+== Distributed ACID Transactions, FLE, and RTO 
 
 Couchbase provides several SDKs to allow applications to access a Couchbase cluster, as well as Mobile SDKs to carry your application to the edge. 
 
