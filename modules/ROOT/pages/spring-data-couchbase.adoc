@@ -5,4 +5,17 @@
 The primary goal of the Spring Data project is to make it easier to build Spring-powered applications that use new data access technologies such as non-relational databases, map-reduce frameworks, and Cloud-based data services.
 
 The Spring Data Couchbase project aims to provide a familiar and consistent Spring-based programming model for Couchbase Server as a document database and cache while retaining store-specific features and capabilities. 
-Key functional areas of Spring Data Couchbase are a POJO centric model for interacting with a Couchbase Server Bucket and easily writing a repository style data access layer.
+Key functional areas of Spring Data Couchbase (SDC) are a POJO centric model for interacting with a Couchbase Server Bucket and easily writing a repository style data access layer.
+
+From SDC 4.0, and Couchbase Server 7.0, easier migration from RDBMS is provided by Scopes and Collections. 
+Buckets, Scopes, and Collections in Couchbase are analogous to Catalogs, Schemas, and Tables in SQL Databases. 
+
+* Scope name can be configured by overriding `config.getScopeName()`. 
+The base method results in the use of the `_default` Scope.
+* Other Scopes can potentially be used with templates and repositories.
+* If Scopes require different authorization, `RepositoryOperationsMapping` is required.
+* In SDC, we continue to leverage the “ `_class` property, so that data migration to/from Scopes/Collections is not required.
+
+More information can be found in the https://docs.spring.io/spring-data/couchbase/docs/4.2.5/reference/html/#reference[reference documentation^] and
+https://docs.spring.io/spring-data/couchbase/docs/4.2.5/api/[API guide^] -- 
+as well as by exploring the Java-based xref:java-sdk:hello-world:spring-data-sample-application.adoc[sample application].
