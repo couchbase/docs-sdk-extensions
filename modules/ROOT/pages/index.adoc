@@ -43,7 +43,7 @@ xref:sdk-extensions::response-time-observability.adoc[Response Time Observabilit
 https://spring.io/projects/spring-data-couchbase[Spring Data for Couchbase] is part of the umbrella Spring Data project which aims to provide a familiar and consistent Spring-based programming model for new datastores while retaining store-specific features and capabilities.
 
 The Spring Data Couchbase project provides integration with the Couchbase Server database and any of our JVM SDKs. 
-Key functional areas of Spring Data Couchbase are a POJO centric model for interacting with Couchbase Buckets and easily writing a Repository style data access layer.
+Key functional areas of Spring Data Couchbase are a POJO centric model for interacting with Couchbase Buckets or Collections, and easily writing a Repository style data access layer.
 
 xref:sdk-extensions::spring-data-couchbase.adoc[Spring Data Couchbase intro].
 
