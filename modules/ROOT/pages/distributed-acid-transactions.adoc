@@ -4,7 +4,7 @@
 :tabs:
 
 
-include::7.1@server:learn:data/transactions.adoc[tag=all]
+include::7.0@server:learn:data/transactions.adoc[tag=all]
 
 
 
