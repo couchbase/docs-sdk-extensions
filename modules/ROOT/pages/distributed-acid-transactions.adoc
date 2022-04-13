@@ -4,14 +4,9 @@
 :tabs:
 
 
-include::7.0@server:learn:data/transactions.adoc[tag=all]
+// replace this page with below include:: once 7.1 is in prod
+// include::7.1@server:learn:data/transactions.adoc[tag=all]
 
-
-
-// replace this page with below include:: once server page is updated
-// and made into a :page-partial: - and xrefs made absolute.
-// include:7.0@server:learn:data/transactions.adoc[]
-////
 
 [abstract]
 {description}
@@ -328,4 +323,4 @@ xref:server:settings:query-settings.adoc#atrcollection_req[atrcollection] for de
 * xref:cxx-txns::distributed-acid-transactions-from-the-sdk.adoc[]
 * xref:dotnet-sdk:howtos:distributed-acid-transactions-from-the-sdk.adoc[]
 * xref:server:n1ql:n1ql-language-reference/transactions.adoc[]
-////
+
