@@ -1,1 +1,13 @@
-include::7.0@sdk:pages:partial$encryption.adoc[]
+= Field Level Encryption
+:description: A high-level overview of Field-Level Encryption concepts.
+:page-topic-type: concept
+:page-edition: Enterprise Edition
+// :page-aliases: ROOT:encryption.adoc
+
+[abstract]
+{description}
+
+For a practical guide, see xref:java-sdk:howtos:encrypting-using-sdk.adoc[].
+
+
+include::7.1@sdk:pages:partial$encryption.adoc[enc]
