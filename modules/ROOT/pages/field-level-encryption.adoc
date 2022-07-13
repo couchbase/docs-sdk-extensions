@@ -10,4 +10,4 @@
 For a practical guide, see xref:java-sdk:howtos:encrypting-using-sdk.adoc[].
 
 
-include::7.1@sdk:pages:partial$encryption.adoc[enc]
+include::7.1@sdk:pages:partial$encryption.adoc[tag=enc]
