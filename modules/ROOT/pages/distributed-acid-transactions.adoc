@@ -324,8 +324,12 @@ xref:server:settings:query-settings.adoc#atrcollection_req[atrcollection] for de
 
 == Related Topics
 
-* xref:java-sdk:howtos:distributed-acid-transactions-from-the-sdk.adoc[]
 * xref:cxx-txns::distributed-acid-transactions-from-the-sdk.adoc[]
 * xref:dotnet-sdk:howtos:distributed-acid-transactions-from-the-sdk.adoc[]
+* xref:java-sdk:howtos:distributed-acid-transactions-from-the-sdk.adoc[]
+* xref:go-sdk:howtos:distributed-acid-transactions-from-the-sdk.adoc[]
+* xref:node-sdk:howtos:distributed-acid-transactions-from-the-sdk.adoc[]
+* xref:php-sdk:howtos:distributed-acid-transactions-from-the-sdk.adoc[]
+* xref:python-sdk:howtos:distributed-acid-transactions-from-the-sdk.adoc[]
 * xref:server:n1ql:n1ql-language-reference/transactions.adoc[]
 
