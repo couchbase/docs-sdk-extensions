@@ -1,5 +1,6 @@
 = SDK Extension Libraries
 :description: Field Level Encryption, Response Time Observability (Tracing), and Transactions libraries ship separately from each SDK.
+:page-toclevels: 2
 
 [Abstract]
 {description}
