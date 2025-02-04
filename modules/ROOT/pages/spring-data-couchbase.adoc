@@ -23,5 +23,6 @@ More information can be found in the https://docs.spring.io/spring-data/couchbas
 https://docs.spring.io/spring-data/couchbase/docs/current/api/[API guide^] -- 
 as well as by exploring the Java-based xref:java-sdk:hello-world:spring-data-sample-application.adoc[sample application].
 
-Although hosted at https://spring.io[spring.io^], as is the norm for Spring projects, SDC is supported by Couchbase.
+Although hosted at https://spring.io/projects/spring-data-couchbase#overview[spring.io^],
+as is the norm for Spring projects, SDC is supported by Couchbase.
 Couchbase Server compatibility information can be found xref:java-sdk:project-docs:compatibility.adoc#spring-compat[here].
