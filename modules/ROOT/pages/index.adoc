@@ -1,5 +1,5 @@
 = SDK Extension Libraries
-:description: Field Level Encryption, Response Time Observability (Tracing), and Transactions libraries ship separately from each SDK.
+:description: Field Level Encryption and Response Time Observability (Tracing) libraries ship separately from each SDK.
 :page-toclevels: 2
 
 [Abstract]
@@ -20,6 +20,7 @@ Couchbase provides several SDKs to allow applications to access a Couchbase clus
 === Distributed ACID Transactions
 
 Distributed ACID Transactions are operations that ensure that when multiple documents need to be modified such that only the successful modification of all justifies the modification of any, either all the modifications do occur successfully; or none of them occurs. 
+Earlier release shipped as a separate library, but these are now incorporated within each SDK.
 
 xref:sdk-extensions::distributed-acid-transactions.adoc[Distributed ACID Transactions intro].
 
