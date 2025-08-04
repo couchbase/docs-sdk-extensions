@@ -14,13 +14,15 @@
 
 Couchbase provides Distributed ACID Transactions for K-V (data) and Query operations -- these are available through APIs in:
 
-* xref:cxx-txns::distributed-acid-transactions-from-the-sdk.adoc[C++]
+* xref:cxx-sdk:howtos:distributed-acid-transactions-from-the-sdk.adoc[{cpp}]
 * xref:dotnet-sdk:howtos:distributed-acid-transactions-from-the-sdk.adoc[.NET]
-* xref:java-sdk:howtos:distributed-acid-transactions-from-the-sdk.adoc[Java]
 * xref:go-sdk:howtos:distributed-acid-transactions-from-the-sdk.adoc[Go]
+* xref:java-sdk:howtos:distributed-acid-transactions-from-the-sdk.adoc[Java]
+* xref:kotlin-sdk:howtos:distributed-acid-transactions-from-the-sdk.adoc[Kotlin]
 * xref:node-sdk:howtos:distributed-acid-transactions-from-the-sdk.adoc[Node.js]
 * xref:php-sdk:howtos:distributed-acid-transactions-from-the-sdk.adoc[PHP]
 * xref:python-sdk:howtos:distributed-acid-transactions-from-the-sdk.adoc[Python]
+* xref:scala-sdk:howtos:distributed-acid-transactions-from-the-sdk.adoc[Scala]
 
 
 == Overview
@@ -72,37 +74,36 @@ Consider a basic debit and credit transaction to transfer $1000.00 from Beth’s
 [source,java]
 ----
 transactions.run((txnctx) -> {
-    // get the account documents for Andy and Beth    
+    // get the account documents for Andy and Beth
     var andy = txnctx.get(collection, "Andy");
     var andyContent = andy.contentAsObject();
 
     int andyBalance = andyContent.getInt("account_balance");
     var beth = txnctx.get(collection, "Beth");
 
-	var bethContent = beth.contentAsObject();
-    int bethBalance = bethContent.getInt("account_balance"); 
+    var bethContent = beth.contentAsObject();
+    int bethBalance = bethContent.getInt("account_balance");
 
     // if Beth has sufficient funds, make the transfer
     if (bethBalance > transferAmount) {
-	 	andyContent.put("account_balance", andyBalance + transferAmount);
+        andyContent.put("account_balance", andyBalance + transferAmount);
         txnctx.replace(andy, andyContent);
-    
+
         bethContent.put("account_balance", bethBalance - transferAmount);
         txnctx.replace(beth, bethContent)
-        }
-        else throw new InsufficientFunds();  
-   	// commit transaction - optional, can be omitted
-   	txnctx.commit();
+    } else
+        throw new InsufficientFunds();
+
+   // commit transaction - optional, can be omitted
+   txnctx.commit();
 });
----- 
+----
 
 The Java example above is a classic example to transfer money between two accounts. 
 Note the use of a lambda function to express the transaction. 
 
 The application supplies the logic for the transaction inside a lambda, including any conditional logic required, and the transactions API takes care of getting the transaction committed. If the transactions API encounters a transient error, such as a temporary conflict with another transaction, then it can rollback what has been done so far and run the lambda again. 
 The application does not have to do these retries and error handling itself.
-
-For more information and examples of using the transactions API, see Java, C++, and C SDK documentation.
 
 NOTE: Use transactions only on documents less than 10 MB in size.
 
