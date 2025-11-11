@@ -202,7 +202,7 @@ Each execution of the transaction logic in an application is called an 'attempt'
 === Active Transaction Record Entries
 
 The first mechanic is that each of these attempts adds an entry to a metadata document in the Couchbase cluster. These metadata documents are called _Active Transaction Records_, or ATRs. 
-ATRs are created and maintained automatically and are easily distinguishable by their prefix `_{txn-atr}`. They are viewable and _should not be modified externally_.
+ATRs are created and maintained automatically and are easily distinguishable by their prefix `{txn-atr}`. They are viewable and _should not be modified externally_.
 
 Each ATR contains entries for multiple attempts. Each ATR entry stores some metadata and, crucially, whether the attempt has been committed or not. In this way, the entry acts as the single point of truth for the transaction, which is essential for providing an 'atomic commit' during reads.
 In Step 1 above, a new entry is added to the ATR.
