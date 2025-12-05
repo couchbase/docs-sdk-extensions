@@ -6,18 +6,21 @@
 [abstract]
 {description}
 
-include::7.0@sdk:shared:partial$rto.adoc[tag=xplatform]
+include::8.0@sdk:shared:partial$rto.adoc[tag=xplatform]
 
 == Additional Information
 
 A practical look at working with metrics is available in the _Slow Operations Logging_ howto docs for each SDK:
 xref:c-sdk:howtos:slow-operations-logging.adoc[C],
+xref:cxx-sdk:howtos:slow-operations-logging.adoc[{cpp}],
 xref:dotnet-sdk:howtos:slow-operations-logging.adoc[.NET],
 xref:go-sdk:howtos:slow-operations-logging.adoc[Go],
 xref:java-sdk:howtos:slow-operations-logging.adoc[Java],
+// xref:kotlin-sdk:howtos:slow-operations-logging.adoc[Kotlin],
 xref:nodejs-sdk:howtos:slow-operations-logging.adoc[Node.js],
 xref:php-sdk:howtos:slow-operations-logging.adoc[PHP],
 xref:python-sdk:howtos:slow-operations-logging.adoc[Python],
-xref:ruby-sdk:howtos:slow-operations-logging.adoc[Ruby], &
+xref:ruby-sdk:howtos:slow-operations-logging.adoc[Ruby],
+xref:rust-sdk:howtos:slow-operations-logging.adoc[Rust], &
 xref:scala-sdk:howtos:slow-operations-logging.adoc[Scala].
 // end::
