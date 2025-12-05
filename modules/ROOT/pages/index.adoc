@@ -52,26 +52,37 @@ xref:sdk-extensions::spring-data-couchbase.adoc[Spring Data Couchbase intro].
 
 == Additional Information
 
-* Distributed ACID Transactions in xref:java-sdk:howtos:distributed-acid-transactions-from-the-sdk.adoc[Java], 
+* Distributed ACID Transactions in xref:cxx-sdk:howtos:distributed-acid-transactions-from-the-sdk.adoc[{cpp}], 
 xref:dotnet-sdk:howtos:distributed-acid-transactions-from-the-sdk.adoc[.NET (C#)], 
-and xref:cxx-txns::distributed-acid-transactions-from-the-sdk.adoc[C++].
+xref:go-sdk:howtos:distributed-acid-transactions-from-the-sdk.adoc[.NET (Go)], 
+xref:java-sdk:howtos:distributed-acid-transactions-from-the-sdk.adoc[.NET (Java)], 
+xref:kotlin-sdk:howtos:distributed-acid-transactions-from-the-sdk.adoc[.NET (Kotlin)], 
+xref:nodejs-sdk:howtos:distributed-acid-transactions-from-the-sdk.adoc[.NET (Node.js)], 
+xref:php-sdk:howtos:distributed-acid-transactions-from-the-sdk.adoc[.NET (PHP)], 
+xref:python-sdk:howtos:distributed-acid-transactions-from-the-sdk.adoc[.NET (Python)], 
+and xref:scala-sdk:howtos:distributed-acid-transactions-from-the-sdk.adoc[.NET (Scala)].
 * Field Level Encryption pages for 
-// xref:c-sdk:howtos:encrypting-using-sdk.adoc[C], 
+xref:cxx-sdk:howtos:encrypting-using-sdk.adoc[{cpp}], 
 xref:dotnet-sdk:howtos:encrypting-using-sdk.adoc[.NET], 
 xref:go-sdk:howtos:encrypting-using-sdk.adoc[Go], 
 xref:java-sdk:howtos:encrypting-using-sdk.adoc[Java], 
+// xref:kotlin-sdk:howtos:encrypting-using-sdk.adoc[Kotlin], 
 xref:nodejs-sdk:howtos:encrypting-using-sdk.adoc[Node.js], 
 // xref:php-sdk:howtos:encrypting-using-sdk.adoc[PHP], 
 xref:python-sdk:howtos:encrypting-using-sdk.adoc[Python], 
 // xref:ruby-sdk:howtos:encrypting-using-sdk.adoc[Ruby], 
+// xref:rust-sdk:howtos:encrypting-using-sdk.adoc[Rust], 
 and xref:scala-sdk:howtos:encrypting-using-sdk.adoc[Scala].
 * RTO pages for 
 // xref:c-sdk:howtos:slow-operations-logging.adoc[C], 
-// xref:dotnet-sdk:howtos:slow-operations-logging.adoc[.NET], 
+// xref:cxx-sdk:howtos:slow-operations-logging.adoc[{cpp}], 
+xref:dotnet-sdk:howtos:slow-operations-logging.adoc[.NET], 
 // xref:go-sdk:howtos:slow-operations-logging.adoc[Go], 
 xref:java-sdk:howtos:observability-tracing.adoc[Java], 
+// xref:kotlin-sdk:howtos:slow-operations-logging.adoc[Kotlin], 
 // xref:nodejs-sdk:howtos:slow-operations-logging.adoc[Node.js], 
 // xref:php-sdk:howtos:slow-operations-logging.adoc[PHP], 
 // xref:python-sdk:howtos:slow-operations-logging.adoc[Python], 
 // xref:ruby-sdk:howtos:slow-operations-logging.adoc[Ruby], 
+// xref:rust-sdk:howtos:slow-operations-logging.adoc[Rust], 
 and xref:scala-sdk:howtos:observability-tracing.adoc[Scala].
