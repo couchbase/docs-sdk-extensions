@@ -24,7 +24,8 @@ Couchbase provides Distributed ACID Transactions for K-V (data) and Query operat
 * xref:python-sdk:howtos:distributed-acid-transactions-from-the-sdk.adoc[Python]
 * xref:scala-sdk:howtos:distributed-acid-transactions-from-the-sdk.adoc[Scala]
 
-TIP: Couchbase Distributed ACID Transactions were initially implemented as a separate library. For all of the SDKs listed above they are now fully integrated into the SDK.
+TIP: Couchbase Distributed ACID Transactions were initially implemented as a separate library. 
+For all of the SDKs listed above they are now fully integrated into the SDK.
 
 
 == Overview
