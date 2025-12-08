@@ -54,13 +54,13 @@ xref:sdk-extensions::spring-data-couchbase.adoc[Spring Data Couchbase intro].
 
 * Distributed ACID Transactions in xref:cxx-sdk:howtos:distributed-acid-transactions-from-the-sdk.adoc[{cpp}], 
 xref:dotnet-sdk:howtos:distributed-acid-transactions-from-the-sdk.adoc[.NET (C#)], 
-xref:go-sdk:howtos:distributed-acid-transactions-from-the-sdk.adoc[.NET (Go)], 
-xref:java-sdk:howtos:distributed-acid-transactions-from-the-sdk.adoc[.NET (Java)], 
-xref:kotlin-sdk:howtos:distributed-acid-transactions-from-the-sdk.adoc[.NET (Kotlin)], 
-xref:nodejs-sdk:howtos:distributed-acid-transactions-from-the-sdk.adoc[.NET (Node.js)], 
-xref:php-sdk:howtos:distributed-acid-transactions-from-the-sdk.adoc[.NET (PHP)], 
-xref:python-sdk:howtos:distributed-acid-transactions-from-the-sdk.adoc[.NET (Python)], 
-and xref:scala-sdk:howtos:distributed-acid-transactions-from-the-sdk.adoc[.NET (Scala)].
+xref:go-sdk:howtos:distributed-acid-transactions-from-the-sdk.adoc[Go], 
+xref:java-sdk:howtos:distributed-acid-transactions-from-the-sdk.adoc[Java], 
+xref:kotlin-sdk:howtos:distributed-acid-transactions-from-the-sdk.adoc[Kotlin], 
+xref:nodejs-sdk:howtos:distributed-acid-transactions-from-the-sdk.adoc[Node.js], 
+xref:php-sdk:howtos:distributed-acid-transactions-from-the-sdk.adoc[PHP], 
+xref:python-sdk:howtos:distributed-acid-transactions-from-the-sdk.adoc[Python], 
+and xref:scala-sdk:howtos:distributed-acid-transactions-from-the-sdk.adoc[Scala].
 * Field Level Encryption pages for 
 xref:cxx-sdk:howtos:encrypting-using-sdk.adoc[{cpp}], 
 xref:dotnet-sdk:howtos:encrypting-using-sdk.adoc[.NET], 
