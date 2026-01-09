@@ -4,8 +4,9 @@
 :tabs:
 
 
-// replace this page with below include:: once 7.1 is in prod
-// include::7.1@server:learn:data/transactions.adoc[tag=all]
+// replace this page with below include:: 
+// include::8.0@server:learn:data/transactions.adoc[tag=all]
+// ??
 
 
 [abstract]
